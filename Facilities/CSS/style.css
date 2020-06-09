@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+div,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 20px 100px 0 100px;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: 500;
+}
+
+.navbar-brand > span {
+  color: #dd383a;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Toggler */
+.line {
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+  background: #0a223d;
+}
+
+/* Media Queries */
+@media screen and (max-width: 730px) {
+  .navbar {
+    margin: 0;
+  }
+}
+
+.intro {
+  position: relative;
+  height: 250px;
+  background: #0a223d;
+  border-radius: 20px;
+  width: 93vw;
+  margin: 10px auto 0 auto;
+  color: #fff;
+  padding: 100px 0 0 80px;
+}
+
+@media screen and (min-width: 730px) {
+  .intro {
+    background: linear-gradient(88.6deg, rgba(10, 34, 61, 0.95) 30.2%, rgba(10, 34, 61, 0) 94.87%), url(../asstes/under.png);
+    height: 438px;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  .intro__content {
+    position: absolute;
+    width: 315px;
+    height: 77px;
+    left: 136px;
+    top: 192px;
+  }
+  .intro__content h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107.4%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
